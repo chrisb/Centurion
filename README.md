@@ -2,13 +2,6 @@
 
 A rad UI theme (and color scheme) for Sublime Text 2/3.
 
-Brought to you by:
-* [Soda](https://github.com/buymeasoda/soda-theme/)
-* [Centurion](https://github.com/allanhortle/Centurion)
-* [Tomorrow](https://github.com/chriskempson/tomorrow-theme)
-* [base16](https://github.com/chriskempson/base16)
-* [Glyphicons](http://www.glyphicons.com/)
-
 Ironclad is a darker, less green version of [Centurion](https://github.com/allanhortle/Centurion).
 
 ![Ironclad theme](https://raw.github.com/chrisb/ironclad-theme/master/Ironclad.png)  
@@ -26,9 +19,18 @@ Make sure you have the `Theme - Ironclad` at the end of the command so it is pla
 
 Back to Sublime Text, press `super+,` to access your `Settings - User` and insert: 
 
-```json
+```
 "theme": "Ironclad.sublime-theme",
 "color_scheme": "Packages/Theme - Ironclad/Ironclad.tmTheme",
 ```
 
 If it looks like crap make sure to restart Sublime before crying. 
+
+## Authors
+
+Brought to you by:
+* [Soda](https://github.com/buymeasoda/soda-theme/)
+* [Centurion](https://github.com/allanhortle/Centurion)
+* [Tomorrow](https://github.com/chriskempson/tomorrow-theme)
+* [base16](https://github.com/chriskempson/base16)
+* [Glyphicons](http://www.glyphicons.com/)
