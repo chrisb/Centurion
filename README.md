@@ -1,36 +1,34 @@
-Centurion
-=========
+# Ironclad
 
-A clean cut UI theme for Sublime Text 2 bastardised from the source code of [Soda](https://github.com/buymeasoda/soda-theme/).
+A rad UI theme (and color scheme) for Sublime Text 2/3.
 
-Centurion was made out of a want for less UI and more code. It's so minimal you can barely see it. 
-No gradients, no 1px edges and not a thousand different icon sprites. Just color, shape and 14 [icons](http://www.glyphicons.com/).  
-I think it works best with the [Tomorrow Night - Eighties](https://github.com/chriskempson/tomorrow-theme) theme.
+Brought to you by:
+* [Soda](https://github.com/buymeasoda/soda-theme/)
+* [Centurion](https://github.com/allanhortle/Centurion)
+* [Tomorrow](https://github.com/chriskempson/tomorrow-theme)
+* [base16](https://github.com/chriskempson/base16)
+* [Glyphicons](http://www.glyphicons.com/)
 
-![Centurion theme](https://raw.github.com/allanhortle/Centurion/master/Centurion.png)  
+Ironclad is a darker, less green version of [Centurion](https://github.com/allanhortle/Centurion).
 
-Installation
-------------------------------------------------------------------------
-###Package Control
+![Ironclad theme](https://raw.github.com/chrisb/ironclad-theme/master/Ironclad.png)  
 
-Just install it and make sure to update your `Settings - User` file with:
+## Installation
 
-    "theme": "Centurion.sublime-theme"
-    
+Clone the Ironclad repo to your Packages directory. Here's what it looks like on OS X:
 
-###Manual
-
-Clone it into your packages directory. These are OSX paths because I'm lazy like that. For Windows/Other just substitute your paths like a boss.
-
-    cd ~/Library/Application Support/Sublime Text 2/Packages
-
-    git clone git://github.com/allanhortle/Centurion.git 'Theme - Centurion'
+```
+cd ~/Library/Application Support/Sublime Text 3/Packages
+git clone git://github.com/chrisb/ironclad-theme.git 'Theme - Ironclad'
+```
        
-Make sure you have the `Theme - Centurion` at the end of the command so it is placed in the correct folder.  
-Unless of course you feel like experiencing the wrath of none icons. 
+Make sure you have the `Theme - Ironclad` at the end of the command so it is placed in a folder using the right naming scheme.
 
 Back to Sublime Text, press `super+,` to access your `Settings - User` and insert: 
-        
-        "theme": "Centurion.sublime-theme"
+
+```json
+"theme": "Ironclad.sublime-theme",
+"color_scheme": "Packages/Theme - Ironclad/Ironclad.tmTheme",
+```
 
 If it looks like crap make sure to restart Sublime before crying. 
