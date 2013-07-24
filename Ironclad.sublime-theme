@@ -68,7 +68,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png",
         "layer0.opacity": 0,
         "layer0.tint": [255,255,255]
     },
@@ -93,7 +93,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/circle.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/circle.png",
         "layer0.tint": [81,166,203],
         "layer0.opacity": 1
     },
@@ -107,7 +107,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png",
         "layer0.opacity": 1.0
     },
     {
@@ -169,7 +169,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Centurion/Centurion/arrow.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/arrow.png",
         "layer0.opacity": 0.4,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -182,7 +182,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Centurion/Centurion/arrow-down.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/arrow-down.png"
     },
     {
         "class": "fold_button_control",
@@ -506,13 +506,13 @@
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.opacity": 0.6,
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png"
     },
     // Sidebar file dirty
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Centurion/Centurion/circle.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/circle.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [81,166,203]
     },
@@ -520,25 +520,25 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png",
         "layer0.opacity": 1.0
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/cross.png",
         "layer0.opacity": 1.0
     },
 
@@ -550,7 +550,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-closed.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-closed.png",
         "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -568,7 +568,7 @@
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-closed.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-closed.png"
     },
     {
         "class": "disclosure_button_control",
@@ -579,13 +579,13 @@
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-closed.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-closed.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -596,28 +596,28 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-open.png"
     },
     // Sidebar folder open
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Ironclad/Ironclad/folder-open.png"
     },
 
 //
@@ -849,7 +849,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Centurion/Centurion/asterisk.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/asterisk.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
 
@@ -862,7 +862,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Centurion/Centurion/capital.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/capital.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -874,7 +874,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Centurion/Centurion/quotes.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/quotes.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -891,7 +891,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Centurion/Centurion/selection.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/selection.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -903,7 +903,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Centurion/Centurion/page.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/page.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -920,7 +920,7 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Centurion/Centurion/reverse.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/reverse.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -932,7 +932,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Centurion/Centurion/wrap.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/wrap.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -944,7 +944,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Centurion/Centurion/selection.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/selection.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -961,7 +961,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Centurion/Centurion/capital.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/capital.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
@@ -978,7 +978,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Centurion/Centurion/highlight.png",
+        "layer0.texture": "Theme - Ironclad/Ironclad/highlight.png",
         "layer0.opacity": 0.5,
         "content_margin": 9
     },
